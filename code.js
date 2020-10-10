@@ -94,7 +94,7 @@ function sum(num1, num2) {
   const goodBoys = (dogArr) => {
     const dogDescriptions = dogArr.map((element, index, array) => {
       return `${element.name} is a ${element.breed}, and they are ${
-        element.goodBoy ? null : "not "
+        element.goodBoy ? " " : "not "
       }a good boy`;
     });
     //#wants us to return a new array with a sentence describing each dog
